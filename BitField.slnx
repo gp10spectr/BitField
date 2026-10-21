@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="app/app.vcxproj" />
+  <Project Path="BitField/BitField.vcxproj" />
+  <Project Path="GoogleTest/GoogleTest.vcxproj" />
+</Solution>

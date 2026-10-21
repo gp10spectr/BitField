@@ -1,0 +1,33 @@
+# Visual Studio
+.vs/
+Debug/
+Release/
+x64/
+x86/
+*.user
+*.suo
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.log
+*.lastbuildstate
+
+# CMake
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# Идеи / редакторы
+.idea/
+.vscode/
+*.swp
+
+# Системное
+.DS_Store
+Thumbs.db
+
+packages/
