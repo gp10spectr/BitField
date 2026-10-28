@@ -140,9 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="bit_field.h" />
+    <ClInclude Include="set.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bit_field.cpp" />
+    <ClCompile Include="set.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
