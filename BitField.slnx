@@ -3,7 +3,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="app/app.vcxproj" />
-  <Project Path="BitField/BitField.vcxproj" />
-  <Project Path="GoogleTest/GoogleTest.vcxproj" />
+  <Project Path="app/app.vcxproj" Id="6f0ffd1f-c91c-4249-8d7a-39571f3b03ef" />
+  <Project Path="BitField/BitField.vcxproj" Id="39862a20-e269-4815-9a1e-9355a200dc23" />
+  <Project Path="GoogleTest/GoogleTest.vcxproj" Id="baae30a7-708e-47b2-8c15-02c2fdf4fd58" />
 </Solution>
