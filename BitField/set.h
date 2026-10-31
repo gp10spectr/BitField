@@ -5,6 +5,7 @@ class Set {
 private:
 	BitField bitfield;
 public:
+	//N -> part of identity
 	Set();
 	Set(size_t);
 	Set(const Set&);
@@ -12,6 +13,7 @@ public:
 	Set(const BitField&);
 
 	//i > size -> throw
+	//insert and erase if i > size -> throw
 	size_t get_max() const noexcept;
 	bool is_member(size_t) const;
 	void insert(size_t);
@@ -23,8 +25,8 @@ public:
 	Set& operator=(const Set&);
 	Set& operator=(Set&&) noexcept;
 	Set operator+(const Set&) const;
-	Set operator-(const Set&) const;
 	Set operator*(const Set&) const;
+	Set operator-(const Set&) const;
 	Set& operator+=(const Set&);
 	Set& operator-=(const Set&);
 	Set& operator*=(const Set&);

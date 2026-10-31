@@ -3,6 +3,7 @@
 #include <cstddef>
 #include <iostream>
 #include <algorithm>
+#include <vector>
 
 //size -> max number [1; N]
 class BitField {

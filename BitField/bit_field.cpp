@@ -67,6 +67,10 @@ BitField::~BitField() {
 	size = 0;
 }
 
+size_t BitField::get_size() const noexcept {
+	return size;
+}
+
 BitField& BitField::operator=(const BitField& other) {
 	if (this == &other) {
 		return (*this);
@@ -203,7 +207,7 @@ bool BitField::operator!=(const BitField& other) const noexcept {
 }
 
 std::ostream& operator<<(std::ostream& os, const BitField& other) {
-	for (size_t i = 1; i < other.size; i++) {
+	for (size_t i = 1; i <= other.size; i++) {
 		os << (other.get_bit(i) ? '1' : '0');
 	}
 	return os;
